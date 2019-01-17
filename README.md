@@ -6,8 +6,6 @@ This repository reproduces the results of the paper: *[Fast approximate simulati
 
 Our dataset is also provided, as well as a workshop Jupyter notebook showing examples on how to run this code.
 
-Last updated: Jan 2019
-
 ---
 
 <img src="figures/header.png" width="600">
