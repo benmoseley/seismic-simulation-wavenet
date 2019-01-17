@@ -94,3 +94,5 @@ c["CONV_FILTER_LENGTH"] = 101# filter length of the final output convolutional l
 run = main.Trainer(c)
 run.train()
 ```
+
+Take a look at the workshop notebook provided [I'm an inline-style link](https://github.com/benmoseley/seismic-simulation-wavenet/blob/master/Fast%20simulation%20of%20seismic%20waves%20with%20deep%20learning%20-%20Workshop%20-%20Jan%202019.ipynb) for more examples.
