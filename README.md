@@ -1,11 +1,6 @@
 # seismic-simulation-wavenet
 Fast approximate simulation of seismic waves using WaveNet
 
-# Fast approximate simulation of seismic waves with deep learning
-
-# Machine learning workshop - student notebook
-
-
 ---
 
 Author: Ben Moseley, Centre for Autonomous Intelligent Machines and Systems, University of Oxford, bmoseley@robots.ox.ac.uk 
