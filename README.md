@@ -6,7 +6,7 @@ Author: Ben Moseley, Centre for Autonomous Intelligent Machines and Systems, Uni
 
 This repository reproduces the results of the paper: *[Fast approximate simulation of seismic waves with deep learning](https://arxiv.org/abs/1807.06873), NeurIPS 2018, B. Moseley, A. Markham and T. Nissen-Meyer*.
 
-Our dataset is also provided; see the workshop notebook for examples on how to use this code.
+Our dataset is also provided, as well as a workshop notebook showing examples on how to run this code.
 
 Last updated: Jan 2019
 
@@ -22,6 +22,8 @@ Last updated: Jan 2019
 - We use **deep learning** to simulate seismic waves.
 
 - We show that this can offer a **fast approximate alternative** to traditional simulation methods.
+
+- We are also able to adapt our network to carry out **fast seismic inversion**, by flipping its inputs and outputs.
 
 ## Task
 
@@ -75,3 +77,20 @@ then downloading this source code:
 ```bash
 git clone https://github.com/benmoseley/seismic-simulation-wavenet.git
 ```
+
+## Getting started
+
+A `SeismicWaveNet` can be trained very easily using the following code snippet:
+
+```python
+# define model hyperparameters
+c = constants.Constants()
+c["NUM_WAVE_BLOCKS"] = 1# number of WaveNet blocks to use
+c["WAVE_HIDDEN_CHANNELS"] = 256# number of hidden channels in WaveNet
+c["WAVE_RATES"] = [1,2,4,8,16,32,64,128,256]# dilation rates for each convolutional layer
+c["WAVE_BIASES"] = False# whether to use biases in the WaveNet
+c["WAVE_ACTIVATION"] = tf.nn.relu# activation function
+c["CONV_FILTER_LENGTH"] = 101# filter length of the final output convolutional layer
+```
+run = main.Trainer(c)
+run.train()
