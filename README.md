@@ -80,7 +80,7 @@ git clone https://github.com/benmoseley/seismic-simulation-wavenet.git
 
 ## Getting started
 
-A `SeismicWaveNet` can be trained very easily using the following code snippet:
+A `SeismicWavenet` model can be trained very easily using the following code snippet:
 
 ```python
 # define model hyperparameters
