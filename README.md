@@ -1,6 +1,8 @@
 # seismic-simulation-wavenet
 Fast approximate simulation of seismic waves using WaveNet
 
+# Machine learning workshop
+
 ---
 
 Author: Ben Moseley, Centre for Autonomous Intelligent Machines and Systems, University of Oxford, bmoseley@robots.ox.ac.uk 
@@ -60,3 +62,24 @@ We will use the following workflow to complete this task;
 This workflow is shown below.
 
 <img src="figures/workflow.png" width="850">
+
+
+## Installation
+
+This notebook only requires Python libraries to run. We recommend setting up an new environment, for example
+```bash
+conda create -n workshop python=3.6  # Use Anaconda package manager
+source activate workshop
+```
+and then installing the following dependencies:
+```bash
+pip install --ignore-installed --upgrade [packageURL]# install tensorflow (get packageURL from https://www.tensorflow.org/install/pip, see tensorflow website for details)
+pip install tqdm requests
+conda install matplotlib jupyter
+```
+
+then downloading this source code:
+
+```bash
+git clone https://github.com/benmoseley/seismic-simulation-wavenet.git
+```
