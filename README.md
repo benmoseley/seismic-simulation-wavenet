@@ -4,7 +4,7 @@
 
 This repository reproduces the results of the paper: *[Fast approximate simulation of seismic waves with deep learning](https://arxiv.org/abs/1807.06873), NeurIPS 2018, B. Moseley, A. Markham and T. Nissen-Meyer*.
 
-Our dataset is also provided, as well as a workshop notebook showing examples on how to run this code.
+Our dataset is also provided, as well as a workshop Jupyter notebook showing examples on how to run this code.
 
 Last updated: Jan 2019
 
