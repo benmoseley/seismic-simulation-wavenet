@@ -91,6 +91,6 @@ c["WAVE_RATES"] = [1,2,4,8,16,32,64,128,256]# dilation rates for each convolutio
 c["WAVE_BIASES"] = False# whether to use biases in the WaveNet
 c["WAVE_ACTIVATION"] = tf.nn.relu# activation function
 c["CONV_FILTER_LENGTH"] = 101# filter length of the final output convolutional layer
-```
 run = main.Trainer(c)
 run.train()
+```
