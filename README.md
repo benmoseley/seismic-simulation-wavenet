@@ -2,8 +2,6 @@
 
 ---
 
-Author: Ben Moseley, Centre for Autonomous Intelligent Machines and Systems, University of Oxford, bmoseley@robots.ox.ac.uk 
-
 This repository reproduces the results of the paper: *[Fast approximate simulation of seismic waves with deep learning](https://arxiv.org/abs/1807.06873), NeurIPS 2018, B. Moseley, A. Markham and T. Nissen-Meyer*.
 
 Our dataset is also provided, as well as a workshop notebook showing examples on how to run this code.
