@@ -1,13 +1,12 @@
 # seismic-simulation-wavenet
-Fast approximate simulation of seismic waves using WaveNet
 
-# Machine learning workshop
+# Fast approximate simulation of seismic waves using WaveNet
 
 ---
 
 Author: Ben Moseley, Centre for Autonomous Intelligent Machines and Systems, University of Oxford, bmoseley@robots.ox.ac.uk 
 
-This workshop reproduces the results of the paper: *[Fast approximate simulation of seismic waves with deep learning](https://arxiv.org/abs/1807.06873), NeurIPS 2018, B. Moseley, A. Markham and T. Nissen-Meyer*.
+This repository reproduces the results of the paper: *[Fast approximate simulation of seismic waves with deep learning](https://arxiv.org/abs/1807.06873), NeurIPS 2018, B. Moseley, A. Markham and T. Nissen-Meyer*.
 
 Last updated: Jan 2019
 
@@ -66,7 +65,7 @@ This workflow is shown below.
 
 ## Installation
 
-This notebook only requires Python libraries to run. We recommend setting up an new environment, for example
+seismic-simulation-wavenet only requires Python libraries to run. We recommend setting up an new environment, for example
 ```bash
 conda create -n workshop python=3.6  # Use Anaconda package manager
 source activate workshop
