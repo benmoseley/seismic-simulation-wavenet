@@ -68,7 +68,9 @@ pip install tqdm requests
 conda install matplotlib jupyter
 ```
 
-then downloading this source code:
+Please ensure you install **Tensorflow version 1.10** or above.
+
+Then download the source code:
 
 ```bash
 git clone https://github.com/benmoseley/seismic-simulation-wavenet.git
