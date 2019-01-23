@@ -76,8 +76,6 @@ Then download the source code:
 git clone https://github.com/benmoseley/seismic-simulation-wavenet.git
 ```
 
-Finally, check your environment is set up correctly by importing the required libraries for this notebook:
-
 ## Getting started
 
 A `SeismicWavenet` model can be trained very easily using the following code snippet:
