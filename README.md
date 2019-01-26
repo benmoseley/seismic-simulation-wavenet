@@ -56,7 +56,7 @@ Our workflow is shown below.
 
 ## Installation
 
-seismic-simulation-wavenet only requires Python libraries to run. We recommend setting up an new environment, for example
+seismic-simulation-wavenet only requires Python libraries to run. We recommend setting up an new environment, for example:
 ```bash
 conda create -n workshop python=3.6  # Use Anaconda package manager
 source activate workshop
